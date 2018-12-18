@@ -1,8 +1,8 @@
-var recipe = { vodka: '2.5 oz', oliveBrine: '.5 oz', vermouth: '4 dashes'};
+var recipes = { prop: 1};
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  Object.assign({}, {recipe}, {olive: 'to garnish'}); 
-  return recipe;
+  Object.assign({}, {recipes}, {prop: 2}); 
+  return recipes;
 }
 
 
