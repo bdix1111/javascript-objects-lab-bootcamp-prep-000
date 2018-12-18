@@ -11,7 +11,8 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, prop2, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  
+  var newRecipes = Object.assign({}, object)
+  delete newRecipes.key
 }
   
 
